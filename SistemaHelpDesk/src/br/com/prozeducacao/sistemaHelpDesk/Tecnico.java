@@ -5,11 +5,15 @@ public class Tecnico {
 	private String especialidade;
 	
 	public Tecnico(String nomeTecnico,String especialidade) {
-		this.setNomeTecnico(nomeTecnico);
-		this.setEspecialidade(especialidade);
+		this.nomeTecnico = nomeTecnico;
+		this.especialidade = especialidade;
 	}
 
 	
+	// Getters e Setters
+	//Método "get" para retornar valor - Sempre retorna uma valor com o tipo do atributo
+	//Método "set" para alterar ou inserir valor
+	//this é para acessar os atributos
 	
 	public String getNomeTecnico() {
 		return nomeTecnico;
